@@ -7,7 +7,7 @@ paginate: 5
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://engerik.github.io/vitae
+url: http://engerik.github.io/vitae.html
 author: Erik Duarte
 
 # edit this section with your information
