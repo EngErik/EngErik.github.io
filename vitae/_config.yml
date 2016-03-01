@@ -1,0 +1,34 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://engerik.github.io/vitae
+author: Erik Duarte
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Erik Duarte's Resume
+name: Erik Duarte
+email: erik.engenharia@outlook.com
+email_full: mailto:erik.engenharia@outlook.com
+website: github.io/engerik
+website_full: https://engerik.github.io/
+github: engerik
+tel: +55 12 98112 2377
+tel_full: tel:+5512981122377
+google_maps: 'https://www.google.com/maps/place/R.+Ângelo+Bravini,+300+-+Jardim+Terras+do+Sul,+São+José+dos+Campos+-+SP,+12236-063'
+address: Angelo Bravini
+postcode: 12236-063
+city: São José dos Campos
+country: Brasil
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
