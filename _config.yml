@@ -18,7 +18,17 @@ author: Erik Duarte
 description: Personal blog and resume
 avatar: profile.png
 email: erik.engenharia@outlook.com
+email_full: mailto:erik.engenharia@outlook.com
+website: github.io/engerik
+website_full: https://engerik.github.io/
 github: engerik
+tel: +55 12 98112 2377
+tel_full: tel:+5512981122377
+google_maps: 'https://www.google.com/maps/place/R.+Ângelo+Bravini,+300+-+Jardim+Terras+do+Sul,+São+José+dos+Campos+-+SP,+12236-063'
+address: Angelo Bravini
+postcode: 12236-063
+city: São José dos Campos
+country: Brasil
 linkedin: erik-paula-b250b699
 #Comment out if you don't want disqus
 disqus: username
