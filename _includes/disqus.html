@@ -6,7 +6,13 @@
 		var disqus_shortname = '{{ site.disqus }}'; // required: replace example with your forum shortname
 		var disqus_identifier = '{{ page.url }}';
 		var disqus_url = '{{ site.url }}{{ page.url }}';
- 
+
+		/*** Disable disqusreveal ***/
+
+		var disqus_config = function () {
+		this.discovery.disable_all = true;
+	};
+
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
